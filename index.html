@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fynah</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="password-modal" id="passwordModal">
+        <div class="password-content">
+            <h2>Entre le mot secret</h2>
+            <input type="password" class="password-input" id="passwordInput" placeholder="Mdp : Mon 2e prenom">
+            <button class="submit-btn" id="submitPassword">Entrer</button>
+        </div>
+    </div>
+
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1 class="welcome-message">Happy valentine's day princess</h1>
+    </div>
+
+    <div class="container" id="mainContent" style="display: none;">
+        <div class="tabs">
+            <button class="tab active" data-tab="love-letter">
+                <span>❤️</span> Lettre
+            </button>
+            <button class="tab" data-tab="notes">
+                <span>📝</span> Notes
+            </button>
+            <button class="tab" data-tab="gallery">
+                <span>🌷</span> Gallerie
+            </button>
+        </div>
+
+        <div class="content-area">
+            <div class="tab-content active" id="love-letter">
+                <h2>Surprise</h2>
+                <div class="letter" id="loveLetter">
+                    <div class="letter-header">
+                        <h3>Un petit qlq chose pour toi</h3>
+                        <span>Clique ici pour voir la lettre </span>
+                    </div>
+                    <div class="letter-content">
+                        <p>Fynah,</p>
+                        <p>Ca fait qlq temps que j'attendais que tu soit prete et franchement je commancais vraiment
+                            a penser que tu n'accepterais jamais
+                        </p>
+                        <p>Mais finallement t'as accepte et je promet que tu vas pas regretter</p>
+                        <p>J'essairai d'etre le meilleur pour toi (Na de mety hisy tsy vita ihany indraindray)</p>
+                        <p>(Aza adino ny mijery ao am le Gallerie)</p><br>
+                        <p>Olona hafahafa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="notes">
+                <h2>Hafatra kely</h2>
+                <div class="note">
+                    <p>Manaova repos tsara androany <br>
+                        De misotroa rano 
+                    </p>
+                </div>
+                <div class="note">
+                    <p>Aza adino ny manankina ny fiainana amin'i Jesosy</p>
+                </div>
+                <div class="note">
+                    Rota 1 : 16 - 17
+                </div>
+                <div class="note">
+                    <p>Mirary tontolo andro feno hafaliana</p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="gallery">
+                <h2>Notre seule photo ensemble
+                </h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img
+                            src="https://res.cloudinary.com/drlphawbg/image/upload/v1771012060/1756136885350_1_twycd3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heart" style="top: 10%; left: 5%;">❤️</div>
+    <div class="heart" style="top: 20%; right: 10%;">❤️</div>
+    <div class="heart" style="bottom: 15%; left: 15%;">❤️</div>
+    <div class="teddy-bear" style="top: 30%; left: 10%;">🧸</div>
+    <div class="teddy-bear" style="bottom: 10%; right: 5%;">🧸</div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
