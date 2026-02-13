@@ -1,2 +1,2 @@
 # cadeau-valentin
-Un petit projet prou l'occasion
+Un petit projet pour l'occasion
